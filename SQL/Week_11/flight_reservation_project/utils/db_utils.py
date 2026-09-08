@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class DBUtils:
-    def __init__(self, host = "localhost", user = "root", password = "siri", database = "flight_reservation"):
+    def __init__(self, host = "localhost", user = "root", password = "root", database = "flight_reservation"):
         self.host = host
         self.user = user
         self.password = password
